@@ -41,9 +41,10 @@ body {
     font-size   : 17px;
     line-height : 1.7em;
     color       : #353e55;
-    font-weight : 100;
+    text-align: justify;
+    /* font-weight : 100; */
     background  : #ffffff;
-    border      : 10px solid #fff;
+    border      : 5px solid #b1f9a9;
     }
 
 /* --------------------------------------
@@ -376,14 +377,15 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #ffffff;
+    color       : #f4ff54;
     font-weight : bold;
     }
 
 .jumbotron .content p.lead {
     font-size   : 24px;
     line-height : 1.5em;
-    color       : rgba(255, 255, 255, .7);
+    font-weight: 300;
+    /* color       : rgba(255, 255, 255, .7); */
     }
 
 .jumbotron .content .event-date {
@@ -421,7 +423,7 @@ button:focus,
  *---------------------------*/
 .section-title {
     margin-bottom : 60px;
-    text-align    : center;
+    /* text-align    : center; */
     }
 
 .section-title h1 {
@@ -437,7 +439,8 @@ button:focus,
  * About Event
  *-----------------------------------------------*/
 .about-event .lead {
-    font-size   : 19px;
+    font-size   : 16px;
+    text-align: justify;
     line-height : 1.7em;
     }
 
@@ -481,8 +484,8 @@ button:focus,
     font-size        : 16px;
     font-weight: bold;
 
-    margin           : 0 40px;
-    text-transform   : uppercase;
+    /* margin           : 0 40px; */
+    /* text-transform   : uppercase; */
     padding          : 10px 0;
     }
 
@@ -620,7 +623,7 @@ button:focus,
     }
 
 /* --------------------------
- * Client Logo 
+ * Client Logo
  *---------------------------*/
 
 .client-logo a img {
