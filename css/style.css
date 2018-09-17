@@ -348,6 +348,7 @@ button:focus,
 
 .jumbotron {
     background            : url("../img/img-jumbotron-bg.jpg");
+    /* opacity: .6; */
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -578,7 +579,7 @@ button:focus,
 
 .pricing-section .pricing-head .price {
     display     : block;
-    font-size   : 60px;
+    font-size   : 30px;
     line-height : 60px;
     font-weight : bold;
     padding     : 43px 0 0;
